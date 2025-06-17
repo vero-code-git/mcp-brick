@@ -7,7 +7,7 @@ This guide will help you get up and running with the MCP Database Server and Cla
 Install the MCP Database Server using NPM:
 
 ```bash
-npm install -g @executeautomation/database-server
+npm install -g @vero-code-git/mcp-brick
 ```
 
 ## Setup Steps
@@ -30,7 +30,7 @@ Below are sample configurations for each supported database type:
       "command": "npx",
       "args": [
         "-y",
-        "@executeautomation/database-server",
+        "@vero-code-git/mcp-brick",
         "/path/to/your/database.db"
       ]
     }
@@ -47,7 +47,7 @@ Below are sample configurations for each supported database type:
       "command": "npx",
       "args": [
         "-y",
-        "@executeautomation/database-server",
+        "@vero-code-git/mcp-brick",
         "--sqlserver",
         "--server", "your-server-name",
         "--database", "your-database-name",
@@ -68,7 +68,7 @@ Below are sample configurations for each supported database type:
       "command": "npx",
       "args": [
         "-y",
-        "@executeautomation/database-server",
+        "@vero-code-git/mcp-brick",
         "--postgresql",
         "--host", "your-host-name",
         "--database", "your-database-name",

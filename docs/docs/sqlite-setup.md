@@ -29,7 +29,7 @@ Update your Claude configuration file to add SQLite support:
       "command": "npx",
       "args": [
         "-y",
-        "@executeautomation/database-server",
+        "@vero-code-git/mcp-brick",
         "/path/to/your/database.db"
       ]
     }

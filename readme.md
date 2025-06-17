@@ -8,7 +8,7 @@ This MCP (Model Context Protocol) server provides database access capabilities t
 
 1. Clone the repository:
 ```
-git clone https://github.com/executeautomation/database-server.git
+git clone https://github.com/vero-code-git/mcp-brick.git
 cd database-server
 ```
 
@@ -34,7 +34,7 @@ There are two ways to use this MCP server with Claude:
 The easiest way to use this MCP server is by installing it globally:
 
 ```bash
-npm install -g @executeautomation/database-server
+npm install -g @vero-code-git/mcp-brick
 ```
 
 This allows you to use the server directly without building it locally.
@@ -124,7 +124,7 @@ If you installed the package globally, configure Claude Desktop with:
       "command": "npx",
       "args": [
         "-y",
-        "@executeautomation/database-server",
+        "@vero-code-git/mcp-brick",
         "/path/to/your/database.db"
       ]
     },
@@ -132,7 +132,7 @@ If you installed the package globally, configure Claude Desktop with:
       "command": "npx",
       "args": [
         "-y",
-        "@executeautomation/database-server",
+        "@vero-code-git/mcp-brick",
         "--sqlserver",
         "--server", "your-server-name",
         "--database", "your-database-name",
@@ -144,7 +144,7 @@ If you installed the package globally, configure Claude Desktop with:
       "command": "npx",
       "args": [
         "-y",
-        "@executeautomation/database-server",
+        "@vero-code-git/mcp-brick",
         "--postgresql",
         "--host", "your-host-name",
         "--database", "your-database-name",
@@ -156,7 +156,7 @@ If you installed the package globally, configure Claude Desktop with:
       "command": "npx",
       "args": [
         "-y",
-        "@executeautomation/database-server",
+        "@vero-code-git/mcp-brick",
         "--mysql",
         "--host", "your-host-name",
         "--database", "your-database-name",

@@ -27,7 +27,7 @@ const logger = {
 // Configure the server
 const server = new Server(
   {
-    name: "executeautomation/database-server",
+    name: "vero-code-git/mcp-brick",
     version: "1.1.0",
   },
   {
