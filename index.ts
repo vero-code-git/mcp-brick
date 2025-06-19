@@ -14,7 +14,7 @@ import sqlite3 from "sqlite3";
 const server = new Server(
   {
     name: "vero-code-git/mcp-brick",
-    version: "1.1.0",
+    version: "1.1.1",
   },
   {
     capabilities: {

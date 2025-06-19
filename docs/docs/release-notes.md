@@ -55,7 +55,7 @@
 - MCP integration for Claude Desktop
 - Node.js-based implementation for cross-platform support
 
-## 1.1.0 (2024-05-30)
+## 1.1.1 (2024-05-30)
 
 ### Features
 - Added MySQL database support (read/write/query, schema, etc.)
