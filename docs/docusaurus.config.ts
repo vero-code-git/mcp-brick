@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'MCP Database Server',
+  title: 'MCP brick',
   tagline: 'Fastest way to interact with your Database such as SQL Server, SQLite and PostgreSQL',
   favicon: 'img/favicon.ico',
 
@@ -13,12 +13,12 @@ const config: Config = {
   url: 'https://vero-code-git.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/mcp-database-server',
+  baseUrl: '/mcp-brick',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'vero-code-git', // Usually your GitHub org/user name.
-  projectName: 'mcp-database-server', // Usually your repo name.
+  projectName: 'mcp-brick', // Usually your repo name.
 
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
@@ -54,9 +54,9 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/EA-Icon.svg',
     navbar: {
-      title: 'MCP Database Server',
+      title: 'MCP brick',
       logo: {
-        alt: 'MCP Database Server',
+        alt: 'MCP brick',
         src: 'img/EA-Icon.svg',
       },
       items: [
@@ -94,23 +94,6 @@ const config: Config = {
             {
               label: 'PostgreSQL Setup',
               to: '/docs/postgresql-setup',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Youtube',
-              href: 'https://youtube.com/vero-code-git',
-            },
-            {
-              label: 'Udemy',
-              href: 'https://www.udemy.com/user/karthik-kk',
-            },
-            {
-              label: 'X',
-              href: 'http://x.com/ExecuteAuto',
             },
           ],
         }

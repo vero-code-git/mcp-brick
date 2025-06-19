@@ -1,8 +1,8 @@
 FROM node:20-alpine
 
 # Add metadata
-LABEL maintainer="ExecuteAutomation <info@executeautomation.com>"
-LABEL description="ExecuteAutomation Database Server - A Model Context Protocol server for SQLite"
+LABEL maintainer="vero-code-git"
+LABEL description="MCP Brick - A Model Context Protocol server for SQLite"
 LABEL version="1.0.0"
 
 WORKDIR /app
