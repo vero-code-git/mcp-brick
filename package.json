@@ -1,5 +1,5 @@
 {
-    "name": "@vero-code-git/mcp-brick",
+    "name": "@veronica-npm/mcp-brick",
     "version": "1.1.0",
     "description": "MCP server for interacting with SQLite and SQL Server databases",
     "license": "MIT",
@@ -24,7 +24,7 @@
     },
     "dependencies": {
         "@modelcontextprotocol/sdk": "1.9.0",
-        "@vero-code-git/mcp-brick": "github:vero-code-git/mcp-brick#main",
+        "@veronica-npm/mcp-brick": "github:vero-code-git/mcp-brick#main",
         "mssql": "11.0.1",
         "mysql2": "^3.14.1",
         "pg": "^8.11.3",

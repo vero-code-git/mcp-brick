@@ -32,7 +32,7 @@ There are two ways to use this MCP server with Claude:
 The easiest way to use this MCP server is by installing it globally:
 
 ```bash
-npm install -g @vero-code-git/mcp-brick
+npm install -g @veronica-npm/mcp-brick
 ```
 
 This allows you to use the server directly without building it locally.
@@ -122,7 +122,7 @@ If you installed the package globally, configure Claude Desktop with:
       "command": "npx",
       "args": [
         "-y",
-        "@vero-code-git/mcp-brick",
+        "@veronica-npm/mcp-brick",
         "/path/to/your/database.db"
       ]
     },
@@ -130,7 +130,7 @@ If you installed the package globally, configure Claude Desktop with:
       "command": "npx",
       "args": [
         "-y",
-        "@vero-code-git/mcp-brick",
+        "@veronica-npm/mcp-brick",
         "--sqlserver",
         "--server", "your-server-name",
         "--database", "your-database-name",
@@ -142,7 +142,7 @@ If you installed the package globally, configure Claude Desktop with:
       "command": "npx",
       "args": [
         "-y",
-        "@vero-code-git/mcp-brick",
+        "@veronica-npm/mcp-brick",
         "--postgresql",
         "--host", "your-host-name",
         "--database", "your-database-name",
@@ -154,7 +154,7 @@ If you installed the package globally, configure Claude Desktop with:
       "command": "npx",
       "args": [
         "-y",
-        "@vero-code-git/mcp-brick",
+        "@veronica-npm/mcp-brick",
         "--mysql",
         "--host", "your-host-name",
         "--database", "your-database-name",
