@@ -13,8 +13,8 @@ import sqlite3 from "sqlite3";
 // Configure the server
 const server = new Server(
   {
-    name: "vero-code-git/mcp-brick",
-    version: "1.1.1",
+    name: "veronica-npm/mcp-brick",
+    version: "1.1.2",
   },
   {
     capabilities: {
