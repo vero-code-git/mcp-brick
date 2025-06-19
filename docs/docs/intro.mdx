@@ -26,7 +26,7 @@ Check our [Release Notes](./release-notes) to see what's new in version 1.0.2!
 You can install the MCP Database Server package using NPM:
 
 ```bash
-npm install -g @executeautomation/database-server
+npm install -g @veronica-npm/mcp-brick
 ```
 
 ### Configuring MCP Database Server in Claude Desktop
@@ -42,7 +42,7 @@ Modify your `claude-desktop-config.json` file as shown below:
       "command": "npx",
       "args": [
         "-y",
-        "@executeautomation/database-server",
+        "@veronica-npm/mcp-brick",
         "/path/to/your/database.db"
       ]
     },
@@ -50,7 +50,7 @@ Modify your `claude-desktop-config.json` file as shown below:
       "command": "npx",
       "args": [
         "-y",
-        "@executeautomation/database-server",
+        "@veronica-npm/mcp-brick",
         "--sqlserver",
         "--server", "your-server-name",
         "--database", "your-database-name",
@@ -62,7 +62,7 @@ Modify your `claude-desktop-config.json` file as shown below:
       "command": "npx",
       "args": [
         "-y",
-        "@executeautomation/database-server",
+        "@veronica-npm/mcp-brick",
         "--postgresql",
         "--host", "your-host-name",
         "--database", "your-database-name",
