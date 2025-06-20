@@ -8,7 +8,7 @@
     "bugs": "https://github.com/vero-code-git/mcp-brick/issues",
     "type": "module",
     "bin": {
-        "ea-database-server": "dist/src/index.js"
+        "br-database-server": "dist/src/index.js"
     },
     "files": [
         "dist"
