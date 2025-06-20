@@ -17,7 +17,7 @@ const logger = {
 // Configure the server
 const server = new Server({
     name: "veronica-npm/mcp-brick",
-    version: "1.1.3",
+    version: "1.1.4",
 }, {
     capabilities: {
         resources: {},
